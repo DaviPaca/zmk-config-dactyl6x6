@@ -23,4 +23,6 @@ include:
     shield: DACTYL6x6_LEFT
   - board: nice_nano_v2
     shield: DACTYL6x6_RIGHT
+  - board: nice_nano_v2
+    shield: settings_reset
 

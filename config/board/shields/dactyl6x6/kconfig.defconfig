@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020 Ryan Cross, Bruce Jones
+ *
+ * SPDX-License-Identifier: MIT
+ */
 if SHIELD_DACTYL6x6_LEFT
 
 config ZMK_KEYBOARD_NAME
@@ -7,13 +12,6 @@ config ZMK_SPLIT_BLE_CENTRAL
     default y
 
 endif
-if SHIELD_DACTYL6x6_RIGHT
-
-config ZMK_KEYBOARD_NAME
-    default "dactyl_right"
-
-endif
-
 
 if SHIELD_DACTYL6x6_LEFT || SHIELD_DACTYL6x6_RIGHT
 
