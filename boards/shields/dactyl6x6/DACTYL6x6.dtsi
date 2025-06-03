@@ -1,8 +1,8 @@
-/*
- * Copyright (c) 2020 Ryan Cross, Bruce Jones
- *
- * SPDX-License-Identifier: MIT
- */
+#*
+# * Copyright (c) 2020 Ryan Cross, Bruce Jones
+# *
+# * SPDX-License-Identifier: MIT
+# *
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "DACTYL6x6-layouts.dtsi"
 
