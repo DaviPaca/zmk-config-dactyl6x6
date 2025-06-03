@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-#include "dactly6x6.dtsi"
+#include "DACTYL6x6.dtsi"
 #include "DACTYL6x6-layouts.dtsi"
 
 &physical_layout0 {
