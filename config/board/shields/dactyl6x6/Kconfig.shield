@@ -1,0 +1,4 @@
+config SHIELD_DACTYL6x6_LEFT
+  def_bool $(shields_list_contains, dactyl6x6_left)
+  config SHIELD_DACTYL6x6_RIGHT
+  def_bool $(shields_list_contains, dactyl6x6_right)
