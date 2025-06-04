@@ -1,18 +1,27 @@
-
 if SHIELD_DACTYL6x6_LEFT
-
-config ZMK_KEYBOARD_NAME
+  config ZMK_KEYBOARD_NAME
     default "dactyl_left"
 
-config ZMK_SPLIT_BLE_CENTRAL
+  config ZMK_SPLIT
     default y
 
+  config ZMK_SPLIT_BLE
+    default y
+
+  config ZMK_SPLIT_BLE_ROLE_CENTRAL
+    default y
 endif
 
-if SHIELD_DACTYL6x6_LEFT || SHIELD_DACTYL6x6_RIGHT
+if SHIELD_DACTYL6x6_RIGHT
+  config ZMK_KEYBOARD_NAME
+    default "dactyl_right"
 
-    
-config ZMK_SPLIT
+  config ZMK_SPLIT
     default y
 
+  config ZMK_SPLIT_BLE
+    default y
+
+  config ZMK_SPLIT_BLE_ROLE_PERIPHERAL
+    default y
 endif
