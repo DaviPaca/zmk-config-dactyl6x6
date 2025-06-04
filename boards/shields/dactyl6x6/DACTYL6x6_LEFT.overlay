@@ -5,13 +5,6 @@
 //# *
 
 #include "DACTYL6x6.dtsi"
-#include "dactyl_6x6-layouts.dtsi"
-
-
-    &physical_layout0{
-      kscan = <&kscan0>;
-      transform = <&default_transform>;
-    };
 
 &kscan0{  
       compatible = "zmk,kscan-gpio-matrix";
