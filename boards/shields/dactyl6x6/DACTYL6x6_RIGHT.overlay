@@ -1,8 +1,8 @@
-#*
-# * Copyright (c) 2020 Ryan Cross, Bruce Jones
-# *
-# * SPDX-License-Identifier: MIT
-# *
+//#*
+//# * Copyright (c) 2020 Ryan Cross, Bruce Jones
+//# *
+//# * SPDX-License-Identifier: MIT
+//# *
 #include "DACTYL6x6.dtsi"
 #include "DACTYL6x6-layouts.dtsi"
 

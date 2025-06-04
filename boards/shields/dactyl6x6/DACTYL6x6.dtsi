@@ -1,15 +1,15 @@
-#*
-# * Copyright (c) 2020 Ryan Cross, Bruce Jones
-# *
-# * SPDX-License-Identifier: MIT
-# *
+//#*
+//# * Copyright (c) 2020 Ryan Cross, Bruce Jones
+//# *
+//# * SPDX-License-Identifier: MIT
+//# *
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "DACTYL6x6-layouts.dtsi"
 
 /{
     chosen{
       zmk,kscan = &kscan0;
-      zmk, physical-layout = &physical_layout0;
+      zmk,physical-layout = &physical_layout0;
     };
 
 
