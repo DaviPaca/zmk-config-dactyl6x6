@@ -16,7 +16,6 @@
       compatible = "zmk,kscan-gpio-matrix";
       compatible = "zmk,gpio-key-wakeup-trigger";
       wakeup-source;
-      trigger = <1>;
       diode-direction = "col2row";
 
       row-gpios = 
