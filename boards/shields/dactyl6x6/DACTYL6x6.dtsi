@@ -12,7 +12,7 @@
       zmk,physical_layout = &physical_layout0;
     };
 
-    &physical_layout0 {
+    &physical_layout0{
       kscan = <&kscan0>;
       transform = <&default_transform>;
     };
