@@ -20,9 +20,9 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: Dactyl_6x6_Left
+    shield: DACTYL6x6_LEFT
   - board: nice_nano_v2
-    shield: Dactyl_6x6_Right
+    shield: DACTYL6x6_RIGHT
   - board: nice_nano_v2
     shield: settings_reset
 
