@@ -16,10 +16,11 @@
       compatible = "zmk,kscan-gpio-matrix";
       compatible = "zmk,gpio-key-wakeup-trigger";
       wakeup-sources;
+      trigger = <1>;
       diode-direction = "col2row";
 
       row-gpios = 
-                  <&pro_micro 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                  <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                   <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                   <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                   <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
