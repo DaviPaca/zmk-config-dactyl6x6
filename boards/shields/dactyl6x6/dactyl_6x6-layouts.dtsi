@@ -1,5 +1,5 @@
-# Copyright (c) 2020 Ryan Cross, Bruce Jones
-# SPDX-License-Identifier: MIT
+// Copyright (c) 2020 Ryan Cross, Bruce Jones 
+// SPDX-License-Identifier: MIT
 #include <physical_layouts.dtsi>
 
 /{
