@@ -19,7 +19,7 @@
            ,<&pro_micro 4 GPIO_ACTIVE_HIGH>
            ;
   wakeup-source;
-  trigger = <1>;
+  trigger = < &foo >;
 
 };
 
