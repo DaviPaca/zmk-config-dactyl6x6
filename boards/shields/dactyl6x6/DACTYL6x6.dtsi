@@ -17,7 +17,6 @@
       compatible = "zmk,gpio-key-wakeup-trigger";
       label = "KSCAN";
       diode-direction = "col2row";
-      wakeup-sources;
 
       row-gpios = 
                   <&pro_micro 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
