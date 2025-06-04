@@ -1,9 +1,4 @@
-//#*
-//# * Copyright (c) 2020 Ryan Cross, Bruce Jones
-//# *
-//# * SPDX-License-Identifier: MIT
-//# *
- 
+
 if SHIELD_DACTYL6x6_LEFT
 
 config ZMK_KEYBOARD_NAME

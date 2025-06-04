@@ -15,7 +15,7 @@
 
     kscan0: kscan {
       compatible = "zmk,kscan-gpio-matrix";
-      compatible = "zmk,gpio-key-wakeup-trigger"
+      compatible = "zmk,gpio-key-wakeup-trigger";
       label = "KSCAN";
       diode-direction = "col2row";
       wakeup-source;
