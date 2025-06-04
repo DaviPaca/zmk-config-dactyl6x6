@@ -19,4 +19,4 @@ if SHIELD_DACTYL6x6_LEFT || SHIELD_DACTYL6x6_RIGHT
 
   config ZMK_SPLIT=y
 
-endifS
+endif
