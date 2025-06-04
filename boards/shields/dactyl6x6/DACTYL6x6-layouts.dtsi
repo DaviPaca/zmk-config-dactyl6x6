@@ -3,7 +3,7 @@
 //# *
 //# * SPDX-License-Identifier: MIT
 //# *
- / {
+/{
     physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
