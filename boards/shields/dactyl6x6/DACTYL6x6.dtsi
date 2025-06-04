@@ -4,12 +4,11 @@
 //# * SPDX-License-Identifier: MIT
 //# *
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "DACTYL6x6-layouts.dtsi"
 
 /{
     chosen{
       zmk,kscan = &kscan0;
-      zmk,physical-layout = &physical_layout0;
+      zmk,matrix_transform = &default_transform;
     };
 
 
