@@ -4,6 +4,7 @@
 //# * SPDX-License-Identifier: MIT
 //# *
 #include "DACTYL6x6.dtsi"
+#include <dactyl_6x6-layouts.dtsi>
 
 &default_transform{
   col-offset = <6>;
