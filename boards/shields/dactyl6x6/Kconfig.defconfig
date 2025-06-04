@@ -8,6 +8,9 @@ if SHIELD_DACTYL6x6_LEFT
   config ZMK_SPLIT_BLE_ROLE_CENTRAL
     default y
 
+  config ZMK_STUDIO
+    default y
+
 endif
 
 if SHIELD_DACTYL6x6_RIGHT
