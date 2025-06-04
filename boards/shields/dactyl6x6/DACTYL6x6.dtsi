@@ -4,7 +4,7 @@
 //# * SPDX-License-Identifier: MIT
 //# *
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <dactyl_6x6-layouts.dtsi>
+#include "dactyl_6x6-layouts.dtsi"
 
 /{
     chosen{
