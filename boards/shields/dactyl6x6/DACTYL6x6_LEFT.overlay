@@ -7,6 +7,10 @@
 #include "DACTYL6x6.dtsi"
 #include <dactyl_6x6-layouts.dtsi>
 
+chosen{
+      zmk,kscan = &kscan0;
+      zmk,physical_layout = &physical_layout0;
+    };
 &kscan0{  
       compatible = "zmk,kscan-gpio-matrix";
       
