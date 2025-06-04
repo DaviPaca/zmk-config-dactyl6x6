@@ -30,7 +30,7 @@
 
   default_transform:keymap_transform0{
     compatible="zmk,matrix-transform";
-    row = <7>;
+    rows = <7>;
     columns = <12>;
 
     map = <
