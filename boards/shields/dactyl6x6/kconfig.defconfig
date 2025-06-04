@@ -13,10 +13,13 @@ if SHIELD_DACTYL6x6_RIGHT
   config ZMK_KEYBOARD_NAME
     default "dactyl_right"
 
+  config ZMK_SPLIT_BLE_ROLE_PERIPHERAL=y
+
 endif    
 
 if SHIELD_DACTYL6x6_LEFT || SHIELD_DACTYL6x6_RIGHT
 
   config ZMK_SPLIT=y
+  config ZMK_SPLIT_BLE=y
 
 endif
