@@ -25,5 +25,6 @@ if SHIELD_DACTYL6x6_LEFT || SHIELD_DACTYL6x6_RIGHT
     default y
   config ZMK_SPLIT_BLE
     default y
+  CONFIG_ZMK_POINTING=y
 
 endif
